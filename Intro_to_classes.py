@@ -2,14 +2,20 @@
 
 
 class Employee:
-    pass
+    def __init__(self, first, last, pay):
+        # instance variables
+        self.first = first
+        self.last = last
+        self.pay = pay
+        self.email = first + '.' + last + '@gmail.com'
 
 
-emp_1 = Employee()
-emp_2 = Employee()
+emp_1 = Employee('Seth', 'Bergman', 70000)
 
 print(emp_1)
-print(emp_2)
+
+# print(emp_1)
+# print(emp_2)
 
 # emp_1.first = 'Seth'
 # emp_1.last = 'Bergman'
@@ -22,4 +28,3 @@ print(emp_2)
 # emp_2.pay = 80000
 
 print(emp_1.email)
-print(emp_2.email)
