@@ -11,6 +11,7 @@ class Employee:
 
 
 emp_1 = Employee('Seth', 'Bergman', 70000)
+emp_2 = Employee('Test', 'Employee', 60000)
 
 print(emp_1)
 
