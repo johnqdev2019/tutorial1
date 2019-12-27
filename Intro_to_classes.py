@@ -1,6 +1,7 @@
 # Python Object Oriented Programming
 # Date: 12/27/19
 # Keep at it
+# Seriously
 
 
 class Employee:
